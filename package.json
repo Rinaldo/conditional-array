@@ -5,8 +5,24 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "build" : "tsc"
+    "test": "jest",
+    "build": "tsc",
+    "prepublishOnly" : "npm run test && npm run build"
   },
+  "devDependencies": {
+    "@types/jest": "^24.0.13",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.4.5"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    }
+  },
+  "files": [
+    "index.ts"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Rinaldo/conditional-array.git"
@@ -19,9 +35,5 @@
   "bugs": {
     "url": "https://github.com/Rinaldo/conditional-array/issues"
   },
-  "homepage": "https://github.com/Rinaldo/conditional-array#readme",
-  "devDependencies": {
-    "typescript": "^3.4.5"
-  },
-  "files": ["index.ts"]
+  "homepage": "https://github.com/Rinaldo/conditional-array#readme"
 }

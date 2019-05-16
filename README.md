@@ -10,7 +10,7 @@ npm install conditional-array
 
 ## Usage
 
-### `conditionalArray(callback)`
+#### `conditionalArray(callback)`
 
 Provides a clean syntax for creating an array with conditionally included elements.
 
@@ -46,7 +46,7 @@ conditionalArray(addIf => [
 
     * [`itemIfTrue`] The item returned if `condition` is or returns true.
 
-    * [`itemIfFalse`] The item returned if `condition` is or returns false. Defaults to the placeholder value that is removed from the final array.
+    * [`itemIfFalse`] The item returned if `condition` is or returns false. Defaults to a placeholder value that is removed from the final array.
 
 
 #### Returns

@@ -4,8 +4,8 @@
     "module": "commonjs",
     "declaration": true,
     "outDir": "./lib",
-    "strict": true
+    "strict": true,
+    "esModuleInterop": true
   },
-  "include": ["index.ts"],
-  "exclude": ["node_modules", "*.spec.ts"]
+  "files": ["index.ts"]
 }

@@ -1,0 +1,27 @@
+{
+  "name": "conditional-array",
+  "version": "1.0.0",
+  "description": "Helper function to create arrays with conditionally included elements",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build" : "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rinaldo/conditional-array.git"
+  },
+  "keywords": [
+    "array"
+  ],
+  "author": "Robert Rinaldo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rinaldo/conditional-array/issues"
+  },
+  "homepage": "https://github.com/Rinaldo/conditional-array#readme",
+  "devDependencies": {
+    "typescript": "^3.4.5"
+  },
+  "files": ["index.ts"]
+}
